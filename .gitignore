@@ -2,3 +2,5 @@
 /OpenALPR.Lib/bin
 /OpenALPR.Console/obj
 /OpenALPR.Console/bin
+/.vs/OpenALPR.Lib/v14/*.suo
+/OpenALPR.Console/*.user
