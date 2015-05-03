@@ -38,8 +38,8 @@ namespace OpenALPR.Lib
             var ass = Assembly.GetExecutingAssembly();
             var assemblyDirectory = Path.GetDirectoryName(ass.Location);
 
-            var configFile = Path.Combine(assemblyDirectory, "openalpr.conf");
-            var runtimeDataDir = Path.Combine(assemblyDirectory, "runtime_data");
+            var configFile = Path.Combine(assemblyDirectory, "openalpr", "openalpr.conf");
+            var runtimeDataDir = Path.Combine(assemblyDirectory, "openalpr", "runtime_data");
             using (var alpr = new AlprNet(country == Country.EU ? "eu" : "us", configFile, runtimeDataDir))
             {
                 if (!alpr.isLoaded())

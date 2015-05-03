@@ -69,238 +69,253 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="liblept170.dll">
+    <Content Include="openalpr\liblept170.dll">
+      <Link>liblept170.dll</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="openalpr-net.dll">
+    <Content Include="openalpr\openalpr-net.dll">
+    	<Link>openalpr-net.dll</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="openalpr.dll">
+    <Content Include="openalpr\openalpr.dll">
+    	<Link>openalpr.dll</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="openalprpy.dll">
+    <Content Include="openalpr\openalprpy.dll">
+    	<Link>openalprpy.dll</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="opencv_core248.dll">
+    <Content Include="openalpr\opencv_core248.dll">
+    	<Link>opencv_core248.dll</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="opencv_features2d248.dll">
+    <Content Include="openalpr\opencv_features2d248.dll">
+    	<Link>opencv_features2d248.dll</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="opencv_ffmpeg248_64.dll">
+    <Content Include="openalpr\opencv_ffmpeg248_64.dll">
+    	<Link>opencv_ffmpeg248_64.dll</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="opencv_flann248.dll">
+    <Content Include="openalpr\opencv_flann248.dll">
+    	<Link>opencv_flann248.dll</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="opencv_highgui248.dll">
+    <Content Include="openalpr\opencv_highgui248.dll">
+    	<Link>opencv_highgui248.dll</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="opencv_imgproc248.dll">
+    <Content Include="openalpr\opencv_imgproc248.dll">
+    	<Link>opencv_imgproc248.dll</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="opencv_objdetect248.dll">
+    <Content Include="openalpr\opencv_objdetect248.dll">
+    	<Link>opencv_objdetect248.dll</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\eu\fr.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\eu\fr.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\ak2008.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\ak2008.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\al2002.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\al2002.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\ar2006.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\ar2006.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\az1996.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\az1996.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\ca1993.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\ca1993.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\co2000.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\co2000.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\ct2000.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\ct2000.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\dc2003.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\dc2003.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\de1970.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\de1970.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\fl2004.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\fl2004.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\ga2007.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\ga2007.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\hi1991.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\hi1991.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\ia1997.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\ia1997.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\id2006.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\id2006.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\il2002.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\il2002.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\in2009.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\in2009.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\ks2007b.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\ks2007b.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\ky2005.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\ky2005.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\la2006.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\la2006.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\ma1987.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\ma1987.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\md2006.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\md2006.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\md2006b.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\md2006b.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\md2006c.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\md2006c.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\me1999.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\me1999.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\me1999b.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\me1999b.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\mi2007.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\mi2007.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\mn2000.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\mn2000.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\mo2006b.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\mo2006b.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\mo2009.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\mo2009.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\ms2003.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\ms2003.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\mt2010.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\mt2010.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\nc1982.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\nc1982.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\nd1993.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\nd1993.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\ne2005.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\ne2005.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\nh1999.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\nh1999.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\nj1993.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\nj1993.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\nm2010.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\nm2010.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\nv2001.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\nv2001.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\ny2010.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\ny2010.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\oh2004.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\oh2004.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\ok2009.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\ok2009.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\or1990.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\or1990.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\pa2004.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\pa2004.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\ri1996.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\ri1996.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\sc2008.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\sc2008.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\sd2007.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\sd2007.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\tn2007.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\tn2007.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\tx2009.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\tx2009.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\ut2009.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\ut2009.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\va2003.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\va2003.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\vt1985.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\vt1985.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\wa1998.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\wa1998.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\wi2007.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\wi2007.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\wv1995.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\wv1995.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\keypoints\us\wy2000.jpg">
+    <Content Include="openalpr\runtime_data\keypoints\us\wy2000.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\postprocess\readme.txt">
+    <Content Include="openalpr\runtime_data\postprocess\readme.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\region\eu.xml">
+    <Content Include="openalpr\runtime_data\region\eu.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="runtime_data\region\us.xml">
+    <Content Include="openalpr\runtime_data\region\us.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="openalpr-static.lib">
+    <None Include="openalpr\openalpr-static.lib">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <Content Include="openalpr.conf">
+    <Content Include="openalpr\openalpr.conf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <None Include="runtime_data\ocr\tessdata\leu.traineddata">
+    <None Include="openalpr\runtime_data\ocr\tessdata\leu.traineddata">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="runtime_data\ocr\tessdata\lus.traineddata">
+    <None Include="openalpr\runtime_data\ocr\tessdata\lus.traineddata">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="runtime_data\postprocess\eu.patterns">
+    <None Include="openalpr\runtime_data\postprocess\eu.patterns">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="runtime_data\postprocess\us.patterns">
+    <None Include="openalpr\runtime_data\postprocess\us.patterns">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
