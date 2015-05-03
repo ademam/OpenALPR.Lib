@@ -14,7 +14,7 @@ namespace OpenALPR.Console
 
             var lib = new OpenALPRLib();
             var res = lib.GetBestMatch(Country.EU, args[0]);
-            System.Console.WriteLine(res);
+            System.Console.WriteLine("Best match: "+ res);
         }
     }
 }
